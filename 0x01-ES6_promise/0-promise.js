@@ -3,7 +3,7 @@ function getResponseFromAPI() {
     const success = true;
 
     if (success) {
-        resolve('success')
+        resolve('success');
     } else {
         reject(new Error('failed'));
     }
